@@ -2,8 +2,9 @@
   "name": "pdf-miner-simple",
   "version": "1.0.0",
   "private": true,
+  
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
