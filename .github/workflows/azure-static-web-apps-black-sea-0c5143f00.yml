@@ -66,6 +66,7 @@ jobs:
           app_location: "/"        # App source code path (adjust if app is in a subfolder)
           api_location: "api"      # Set to "" if you don't have serverless API functions
           output_location: "dist"  # Vite default build output
+          skip_app_build: true     # We already built above with env vars — don't rebuild
           ###### End config ######
 
   close_pull_request_job:
